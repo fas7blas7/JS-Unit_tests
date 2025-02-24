@@ -1,0 +1,16 @@
+{
+  "name": "exercises_tests_project",
+  "version": "1.0.0",
+  "description": "exercises project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha test/7_WorkforceManagementTests.js"
+  },
+  "author": "MartinKirov",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.5.0",
+    "mocha": "^10.7.3"
+  }
+}
