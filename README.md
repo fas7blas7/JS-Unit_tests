@@ -1,6 +1,7 @@
 📚 Test Suite Documentation
 
 This repository contains test files designed to validate different functionality aspects of various JavaScript functions. The tests are written using Mocha and Chai frameworks for unit testing and assertion validation.
+
 📝 Test Files
 1. 1_EvenOrOddTests.js 🧮
 
@@ -44,6 +45,22 @@ Tests the artGallery object functions: addArtwork, calculateCosts, and organizeE
     calculateCosts: ✅ Ensures valid pricing for exhibition and insurance costs based on sponsorship and error handling for invalid input types or negative costs.
     organizeExhibits: ✅ Verifies that exhibits are organized correctly based on artwork and display space counts and returns appropriate messages for each scenario.
 
+6. 6_FoodDeliveryTests.js 🍲
+
+Tests the foodDelivery object functions: getCategory, addMenuItem, and calculateOrderCost:
+
+    getCategory: ✅ Verifies category retrieval and throws errors for invalid categories.
+    addMenuItem: ✅ Tests adding menu items with valid inputs and handles errors for invalid data types or constraints.
+    calculateOrderCost: ✅ Calculates order costs with and without discounts, including validation for shipping, addons, and discount inputs.
+
+7. 7_WorkforceManagementTests.js 🧑‍💼
+
+Tests the workforceManagement object functions: recruitStaff, computeWages, and dismissEmployee:
+
+    recruitStaff: ✅ Checks for successful recruitment based on experience and role requirements and handles invalid roles.
+    computeWages: ✅ Calculates wages, including bonuses for overtime, and validates input for hours worked.
+    dismissEmployee: ✅ Manages employee dismissal by index with error handling for invalid inputs.
+
 ⚙️ Test Execution
 
 To run the tests in this repository:
@@ -57,7 +74,7 @@ Run the tests using Mocha:
     npm test
 
 🆕 Changes & Updates
-📅 Feb 24, 2025
+📅 Feb 25, 2025
 
     Added Unit Tests for:
         EvenOrOddTests.js: Functionality for checking the odd/even string lengths.
@@ -65,3 +82,6 @@ Run the tests using Mocha:
         MathEnforcerTests.js: Addition, subtraction, and summation operations with valid number inputs.
         ArrayAnalyzerTests.js: Array analysis including length, minimum, and maximum values.
         ArtGalleryTests.js: Gallery artwork management, including artwork addition, cost calculation, and exhibit organization.
+        FoodDeliveryTests.js: Food delivery functionalities including category retrieval, menu item addition, and order cost calculation.
+        WorkforceManagementTests.js: Workforce management functionalities including staff recruitment, wage computation, and employee dismissal.
+
